@@ -1,6 +1,6 @@
 # 前言
 
-此为1.12.2 CraftTweaker 官方Wiki的非官汉化版。测试
+此为1.12.2 CraftTweaker 官方Wiki的非官汉化版。
 
 因为wiki官方的中文翻译不全，所以本wiki就诞生了。本wiki以将原wiki全翻译（或75%以上）作为目标。本wiki保留中文原翻译，不做太大改动。
 
