@@ -2,58 +2,57 @@
 
 [英文wiki](https://docs.blamejared.com/1.12/en/Vanilla/Global_Functions)
 
-全局函数是不需要[导入](/AdvancedFunctions/Import/)就可以调用的函数。
-
-Here's the list:
+全局函数是不需要[导入](/AdvancedFunctions/Import/)就可以调用的函数。  
+这是列表：
 
 ## print
 
-Prints the string to the crafttweaker log as information.
+将字符串信息打印到CraftTweaker的日志中。
 
 ```zenscript
-//print(String message);
+//print(字符串信息);
 print("Hello World!");
 ```
-Returns nothing
+不返回任何内容。
 
 ## totalActions
-
 ```zenscript
 //totalActions();
 totalActions();
 ```
-Returns an int that shows how many global functions are registered.
+返回一个int，显示注册了多少个全局函数。
 
 ## enableDebug
 
-Enables Debug mode.  
-Use of the [Debug Preprocessor](/AdvancedFunctions/Preprocessors/DebugPreprocessor/) is preferred though.
+启用调试模式。  
+不过，最好还是用[调试预处理器](/AdvancedFunctions/Preprocessors/DebugPreprocessor/)。
 
 ```zenscript
 //enableDebug();
 enableDebug();
 ```
-Returns nothing
+不返回任何内容。
 
 ## isNull
 
-Checks if a given object is null.  
-Doesn't work on primitives!
+检查给定对象是否为空。  
+对数据类型无效！
 
 ```zenscript
 //isNull(Object o);
 isNull(<minecraft:dirt>);
 ```
-Returns a boolean
-Note: If this does not work for you, try casting the object to bool `<minecraft:dirt> as bool`
+返回一个boolean  
+注意：如果这个函数对您不起作用，请尝试将对象转换为bool  
+`<minecraft:dirt> as bool`
 
 
-## instanceof
+## instanceof(类型判断)
 
 ```zenscript
 entity instanceof IEntity;
 ```
-Returns a boolean
+返回一个boolean
 
 
 ## max
@@ -62,7 +61,7 @@ Returns a boolean
 //max(int number1, int number2);
 max(10, 11);
 ```
-Returns the larger number
+返回更大的那个数字
 
 ## min
 
@@ -70,32 +69,32 @@ Returns the larger number
 //min(int number1, int number2);
 min(10, 11);
 ```
-Returns the lower number
+返回更小的那个数字
 
-## pow
+## pow(次方)
 
 ```zenscript
 //pow(double number1, double number2);
 pow(2.0, 4.0);
 ```
-Returns a double
+返回一个double
 
 
 
-## Global Fields
+## 全局字段
 
-| Field      | Description                                                                                    |
+| 字段      | 描述                                                                                    |
 |------------|------------------------------------------------------------------------------------------------|
-| brewing    | Accesses the [Brewing Handler](/Vanilla/Recipes/Recipes_Brewing_Stand/)                        |
-| client     | Accesses [client Methods](/Vanilla/Game/IClient/)                                              |
-| events     | Accesses the [Event Handler](/Vanilla/Events/IEventManager/)                                   |
-| format     | Accesses the [Formatting Handler](/Vanilla/Utils/IFormatter/)                                  |
-| furnace    | Accesses the [Furnace Handler](/Vanilla/Recipes/Furnace/Recipes_Furnace/)                      |
-| game       | Accesses [Game functions](/Vanilla/Game/IGame/)                                                |
-| itemUtils  | Accesses the [ItemUtils Handler](/Vanilla/Utils/IItemUtils/)                                   |
-| loadedMods | Accesses the [loaded Mods list](/Vanilla/Game/Mods/)                                           |
-| logger     | Accesses the [logger](/Vanilla/Utils/Logger/)                                                  |
-| oreDict    | Accesses the [oreDictionary Handler](/Vanilla/OreDict/IOreDict/)                               |
-| recipes    | Accesses the [Recipe Handler](/Vanilla/Recipes/Crafting/Recipes_Crafting_Table/)               |
-| server     | Accesses [server Methods](/Vanilla/Game/IServer/)                                              |
-| vanilla    | Accesses vanilla functions (currently only [vanilla.seeds](/Vanilla/Recipes/Seeds/) available) |
+| brewing    | 请访问[Brewing Handler](/Vanilla/Recipes/Recipes_Brewing_Stand/)                        |
+| client     | 请访问[client Methods](/Vanilla/Game/IClient/)                                              |
+| events     | 请访问[Event Handler](/Vanilla/Events/IEventManager/)                                   |
+| format     | 请访问[Formatting Handler](/Vanilla/Utils/IFormatter/)                                  |
+| furnace    | 请访问[Furnace Handler](/Vanilla/Recipes/Furnace/Recipes_Furnace/)                      |
+| game       | 请访问[Game functions](/Vanilla/Game/IGame/)                                                |
+| itemUtils  | 请访问[ItemUtils Handler](/Vanilla/Utils/IItemUtils/)                                   |
+| loadedMods | 请访问[loaded Mods list](/Vanilla/Game/Mods/)                                           |
+| logger     | 请访问[logger](/Vanilla/Utils/Logger/)                                                  |
+| oreDict    | 请访问[oreDictionary Handler](/Vanilla/OreDict/IOreDict/)                               |
+| recipes    | 请访问[Recipe Handler](/Vanilla/Recipes/Crafting/Recipes_Crafting_Table/)               |
+| server     | 请访问[server Methods](/Vanilla/Game/IServer/)                                              |
+| vanilla    | 请访问原版函数(目前仅[vanilla.seeds](/Vanilla/Recipes/Seeds/)可用) |
