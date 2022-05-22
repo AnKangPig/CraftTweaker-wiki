@@ -6,4 +6,5 @@
 * [Wiki使用](UsingThisWiki.md)
 * [命令](Commands.md)
 * [CTGUI](Vanilla/CTGUI.md)
+* [全局函数](Vanilla/Global_Functions.md)
 * 敬请期待？

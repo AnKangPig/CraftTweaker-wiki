@@ -1,6 +1,9 @@
 # 全局函数
 
-Global functions are functions that can be called without being [imported](/AdvancedFunctions/Import/).  
+[英文wiki](https://docs.blamejared.com/1.12/en/Vanilla/Global_Functions)
+
+全局函数是不需要[导入](/AdvancedFunctions/Import/)就可以调用的函数。
+
 Here's the list:
 
 ## print
