@@ -7,4 +7,5 @@
 * [命令](Commands.md)
 * [CTGUI](Vanilla/CTGUI.md)
 * [全局函数](Vanilla/Global_Functions.md)
+* [尖括号引用](Brackets/Brackets.md)
 * 敬请期待？
