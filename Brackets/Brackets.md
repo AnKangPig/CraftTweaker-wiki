@@ -1,5 +1,7 @@
 # 尖括号引用
 
+[英文wiki](https://docs.blamejared.com/1.12/en/Brackets/Brackets)
+
 ZenScript 使用尖括号引用游戏中诸如物品、实体、矿物词典等游戏对象。
 
 ## 如何使用尖括号
